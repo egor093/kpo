@@ -1,0 +1,10 @@
+﻿  work.cpp
+E:\study\kpo\lab2\lab2\work.cpp(24,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\study\kpo\lab2\lab2\work.cpp(47,30): warning C4309: инициализация: усечение константного значения
+E:\study\kpo\lab2\lab2\work.cpp(50,16): warning C4305: инициализация: усечение из "__int64" в "long"
+E:\study\kpo\lab2\lab2\work.cpp(50,18): warning C4309: инициализация: усечение константного значения
+E:\study\kpo\lab2\lab2\work.cpp(52,18): warning C4305: инициализация: усечение из "__int64" в "long"
+E:\study\kpo\lab2\lab2\work.cpp(52,20): warning C4309: инициализация: усечение константного значения
+E:\study\kpo\lab2\lab2\work.cpp(58,1): warning C4723: возможное деление на 0
+E:\study\kpo\lab2\lab2\work.cpp(57,1): warning C4723: возможное деление на 0
+  lab2.vcxproj -> E:\study\kpo\lab2\x64\Debug\lab2.exe
