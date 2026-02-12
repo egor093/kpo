@@ -1,0 +1,5 @@
+﻿  Dictionary.cpp
+  SE_lab05.cpp
+E:\study\kpo\SE_lab05\SE_lab05.cpp(8,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  SE_lab05.vcxproj -> E:\study\kpo\SE_lab05\x64\Debug\SE_lab05.exe
