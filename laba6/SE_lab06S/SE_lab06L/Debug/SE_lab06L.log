@@ -1,0 +1,25 @@
+﻿Сборка начата 17.04.2024 14:30:57.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\КПО\laba6\SE_lab06S\SE_lab06L\SE_lab06L.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\SE_lab06L.tlog\SE_lab06L.lastbuildstate" удаляется.
+       PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\SE_lab06L.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_lab06L.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06L.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06L.lib" /NOLOGO /MACHINE:X86 Debug\Dictionary.obj
+         SE_lab06L.vcxproj -> C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06L.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_lab06L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_lab06L.tlog\SE_lab06L.lastbuildstate".
+     1>Сборка проекта "C:\Users\user\Desktop\КПО\laba6\SE_lab06S\SE_lab06L\SE_lab06L.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.19

@@ -1,0 +1,33 @@
+﻿Сборка начата 22.04.2024 9:57:29.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\Desktop\КПО\laba6\SE_lab06S\SE_lab06\SE_lab06.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\SE_lab06.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06.exe" /INCREMENTAL /ILK:"Debug\SE_lab06.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06.lib" /MACHINE:X86 Debug\SE_Lab06.obj
+     1>SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct dictionary::Instance __cdecl dictionary::Create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?Create@dictionary@@YA?AUInstance@1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) в функции _main.
+     1>SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::AddEntry(struct dictionary::Instance &,struct dictionary::Entry)" (?AddEntry@dictionary@@YAXAAUInstance@1@UEntry@1@@Z) в функции _main.
+     1>SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::UpdEntry(struct dictionary::Instance &,int,struct dictionary::Entry)" (?UpdEntry@dictionary@@YAXAAUInstance@1@HUEntry@1@@Z) в функции _main.
+     1>SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::Print(struct dictionary::Instance)" (?Print@dictionary@@YAXUInstance@1@@Z) в функции _main.
+     1>SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::Delete(struct dictionary::Instance &)" (?Delete@dictionary@@YAXAAUInstance@1@@Z) в функции _main.
+     1>C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
+     1>Сборка проекта "C:\Users\user\Desktop\КПО\laba6\SE_lab06S\SE_lab06\SE_lab06.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\user\Desktop\КПО\laba6\SE_lab06S\SE_lab06\SE_lab06.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct dictionary::Instance __cdecl dictionary::Create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?Create@dictionary@@YA?AUInstance@1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) в функции _main.
+         SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::AddEntry(struct dictionary::Instance &,struct dictionary::Entry)" (?AddEntry@dictionary@@YAXAAUInstance@1@UEntry@1@@Z) в функции _main.
+         SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::UpdEntry(struct dictionary::Instance &,int,struct dictionary::Entry)" (?UpdEntry@dictionary@@YAXAAUInstance@1@HUEntry@1@@Z) в функции _main.
+         SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::Print(struct dictionary::Instance)" (?Print@dictionary@@YAXUInstance@1@@Z) в функции _main.
+         SE_Lab06.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl dictionary::Delete(struct dictionary::Instance &)" (?Delete@dictionary@@YAXAAUInstance@1@@Z) в функции _main.
+         C:\Users\user\Desktop\КПО\laba6\SE_lab06S\Debug\SE_lab06.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
+
+    Предупреждений: 0
+    Ошибок: 6
+
+Прошло времени 00:00:00.89
