@@ -1,0 +1,4 @@
+﻿  auto_IN_CODE_TABLE.cpp
+D:\KPO\Labs\SELab_17\SELab_17\auto_IN_CODE_TABLE\auto_IN_CODE_TABLE.cpp(18,16): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+D:\KPO\Labs\SELab_17\SELab_17\auto_IN_CODE_TABLE\auto_IN_CODE_TABLE.cpp(11,7): warning C4101: c: неиспользованная локальная переменная
+  auto_IN_CODE_TABLE.vcxproj -> D:\KPO\Labs\SELab_17\SELab_17\x64\Debug\auto_IN_CODE_TABLE.exe
